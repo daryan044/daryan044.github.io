@@ -6,7 +6,7 @@
 <title>Daryan Kamaran Karim, full-stack and systems developer</title>
 <meta name="description" content="Daryan Kamaran Karim: full-stack and systems developer in Kurdistan, Iraq. Android, Linux, .NET and web apps, and making them fast. Creator of Tessera.">
 <link rel="canonical" href="https://daryandev.me/">
-<link rel="icon" href="/tessera-linux/tessera-icon.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Daryan Kamaran Karim, full-stack and systems developer">
 <meta property="og:description" content="Android, Linux, .NET and web apps, and making them fast. Creator of Tessera.">
@@ -27,12 +27,12 @@
 </script>
 <style>
 :root {
-  --bg: #f6f7f5; --surface: #ffffff; --text: #17191a; --muted: #555d58;
-  --accent: #1f6b4a; --accent-soft: #e2efe7; --line: #dfe4e0;
+  --bg: #f6f7fb; --surface: #ffffff; --text: #151829; --muted: #545a72;
+  --accent: #2a3fbf; --accent-soft: #e4e8fb; --line: #dde1ee;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #0f1211; --surface: #181c1a; --text: #e3e6e2; --muted: #a3ada6;
-          --accent: #8ed6ae; --accent-soft: #1d2d24; --line: #2a312d; }
+  :root { --bg: #0d0f17; --surface: #161a26; --text: #e4e6f0; --muted: #a2a8c0;
+          --accent: #a3b3ff; --accent-soft: #232a45; --line: #272c3d; }
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -43,7 +43,8 @@ nav { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(-
       backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 nav div { max-width: 960px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 20px;
           align-items: center; overflow-x: auto; white-space: nowrap; }
-nav strong { margin-right: auto; }
+nav strong { margin-right: auto; display: flex; align-items: center; gap: 10px; }
+nav strong img { width: 28px; height: 28px; }
 nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
 nav a:hover { color: var(--text); }
 main { max-width: 960px; margin: 0 auto; padding: 0 16px 64px; }
@@ -88,7 +89,7 @@ footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top:
 </head>
 <body>
 <nav><div>
-  <strong>Daryan</strong>
+  <strong><img src="/favicon.svg" alt="">Daryan</strong>
   <a href="#work">Work</a>
   <a href="#education">Education</a>
   <a href="#skills">Skills</a>
