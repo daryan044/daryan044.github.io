@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://daryandev.me/sitemap.xml
+Sitemap: https://daryandev.me/tessera-linux/sitemap.xml

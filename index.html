@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daryan Kamaran Karim, full-stack and systems developer</title>
+<meta name="description" content="Daryan Kamaran Karim: full-stack and systems developer in Kurdistan, Iraq. Android, Linux, .NET and web apps, and making them fast. Creator of Tessera.">
+<link rel="canonical" href="https://daryandev.me/">
+<link rel="icon" href="/tessera-linux/tessera-icon.png">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Daryan Kamaran Karim, full-stack and systems developer">
+<meta property="og:description" content="Android, Linux, .NET and web apps, and making them fast. Creator of Tessera.">
+<meta property="og:url" content="https://daryandev.me/">
+<meta property="og:image" content="https://daryandev.me/tessera-linux/screenshots/desktop.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daryan Kamaran Karim",
+  "url": "https://daryandev.me/",
+  "email": "mailto:daryanenglish@gmail.com",
+  "jobTitle": "Full-stack and systems developer",
+  "address": {"@type": "PostalAddress", "addressRegion": "Kurdistan Region", "addressCountry": "IQ"},
+  "knowsLanguage": ["Kurdish", "Arabic", "English", "Persian"],
+  "sameAs": ["https://github.com/daryan044"]
+}
+</script>
+<style>
+:root {
+  --bg: #f6f7f5; --surface: #ffffff; --text: #17191a; --muted: #555d58;
+  --accent: #1f6b4a; --accent-soft: #e2efe7; --line: #dfe4e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1211; --surface: #181c1a; --text: #e3e6e2; --muted: #a3ada6;
+          --accent: #8ed6ae; --accent-soft: #1d2d24; --line: #2a312d; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+nav { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(--bg) 88%, transparent);
+      backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+nav div { max-width: 960px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 20px;
+          align-items: center; overflow-x: auto; white-space: nowrap; }
+nav strong { margin-right: auto; }
+nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
+nav a:hover { color: var(--text); }
+main { max-width: 960px; margin: 0 auto; padding: 0 16px 64px; }
+.hero { padding: 72px 0 40px; }
+.eyebrow { color: var(--accent); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+           font-size: 0.85rem; margin: 0 0 12px; }
+h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); line-height: 1.1; margin: 0 0 16px; letter-spacing: -0.025em; }
+.hero p.lead { font-size: 1.2rem; color: var(--muted); max-width: 660px; margin: 0 0 28px; }
+.contact { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 999px;
+        border: 1px solid var(--line); background: var(--surface); color: var(--text);
+        text-decoration: none; font-size: 0.95rem; }
+.chip.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+h2 { font-size: 1.7rem; margin: 64px 0 20px; letter-spacing: -0.015em; }
+.project { background: var(--surface); border: 1px solid var(--line); border-radius: 24px;
+           padding: 28px; margin-bottom: 20px; }
+.project.featured { display: grid; grid-template-columns: 1fr 220px; gap: 28px; align-items: center; }
+.project.featured img { width: 100%; border-radius: 18px; border: 1px solid var(--line); }
+.project h3 { font-size: 1.35rem; margin: 0 0 4px; }
+.meta { color: var(--muted); font-size: 0.92rem; margin: 0 0 14px; }
+.project p { margin: 0 0 12px; }
+.project ul { margin: 0 0 14px; padding-left: 1.2em; }
+.project li { margin-bottom: 4px; }
+.project .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none; }
+.tags li { background: var(--accent-soft); color: var(--text); border-radius: 8px; padding: 2px 10px;
+           font-size: 0.85rem; margin: 0; }
+.links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 14px; font-weight: 600; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
+.card h3 { margin: 0 0 4px; font-size: 1.1rem; }
+.card p { margin: 0; color: var(--muted); }
+.skills dt { font-weight: 600; margin-top: 14px; }
+.skills dt:first-child { margin-top: 0; }
+.skills dd { margin: 2px 0 0; color: var(--muted); }
+footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 72px; }
+@media (max-width: 720px) {
+  .project.featured { grid-template-columns: 1fr; }
+  .project.featured img { max-width: 240px; margin: 0 auto; display: block; }
+  .project { padding: 22px; }
+}
+</style>
+</head>
+<body>
+<nav><div>
+  <strong>Daryan</strong>
+  <a href="#work">Work</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</div></nav>
+
+<main>
+<section class="hero">
+  <p class="eyebrow">Kurdistan, Iraq</p>
+  <h1>Daryan Kamaran Karim</h1>
+  <p class="lead">Full-stack and systems developer. I build apps end to end, from Android and Linux
+  internals to web back ends and cross-platform business software, and I make them fast.</p>
+  <div class="contact" id="contact">
+    <a class="chip primary" href="mailto:daryanenglish@gmail.com">daryanenglish@gmail.com</a>
+    <a class="chip" href="https://github.com/daryan044">GitHub</a>
+  </div>
+</section>
+
+<h2 id="work">Selected work</h2>
+
+<article class="project featured">
+  <div>
+    <h3>Tessera</h3>
+    <p class="meta">Android app · open source (GPLv3) · 2026</p>
+    <p>Runs Linux desktop apps on Android as real Android apps: Debian and 2,800+ Flathub apps,
+    each with its own window, Recents card and home-screen icon.</p>
+    <ul>
+      <li>Runs Flathub apps without bubblewrap or user namespaces, which Android kernels lack, by
+      building each app's file system itself.</li>
+      <li>GPU acceleration (OpenGL 4.6, Vulkan) on Snapdragon phones through a custom Mesa
+      Turnip and Zink build.</li>
+      <li>Themes GTK, libadwaita, Qt and LibreOffice with the phone's Material You colors, live.</li>
+      <li>A touch-friendly Linux desktop mode, live per-app scaling, and per-app permissions
+      enforced with PRoot or kernel namespaces.</li>
+    </ul>
+    <ul class="tags"><li>Kotlin</li><li>Jetpack Compose</li><li>C</li><li>X11</li><li>Mesa</li><li>Linux containers</li><li>Python</li></ul>
+    <div class="links">
+      <a href="/tessera-linux/">Project page</a>
+      <a href="https://github.com/daryan044/tessera-linux">Source</a>
+    </div>
+  </div>
+  <img src="/tessera-linux/screenshots/desktop.png" alt="Tessera's desktop mode on a phone" loading="lazy">
+</article>
+
+<article class="project">
+  <h3>SPU Archive</h3>
+  <p class="meta">Document archive for a public university (SPU) · 2026</p>
+  <p>Digitizes and searches a university's personnel records, built for about 200,000 scanned
+  files, on ordinary hardware and fully offline.</p>
+  <ul>
+    <li>Web app and API in ASP.NET Core with PostgreSQL and live updates over SignalR.</li>
+    <li>A scanner bridge that sends documents from TWAIN scanners or watched folders straight
+    into the archive, and a desktop backup service.</li>
+    <li>An offline, CPU-only pipeline that reads Central Kurdish and Arabic-Indic administrative
+    forms: deskewing, table detection, digit classification and name matching, with checks that
+    refuse a row rather than guess.</li>
+    <li>An explainer view that overlays what the pipeline saw on each page, so every result can
+    be checked.</li>
+  </ul>
+  <ul class="tags"><li>C#</li><li>ASP.NET Core</li><li>PostgreSQL</li><li>SignalR</li><li>JavaScript</li><li>Image processing</li></ul>
+</article>
+
+<article class="project">
+  <h3>RP Companion</h3>
+  <p class="meta">Business software for a phone-repair shop · 2026</p>
+  <p>Inventory, sales, repair tickets, customer debts, expenses, accounting and thermal-printed
+  receipts, on the shop's Windows PC and the staff's Android and iOS phones.</p>
+  <ul>
+    <li>Offline-first: every device keeps a full SQLite database and works without a network.</li>
+    <li>Peer-to-peer sync with no central database, through a self-hosted SignalR relay that
+    stores nothing.</li>
+    <li>One .NET MAUI codebase for four platforms, plus a public website with an admin panel.</li>
+    <li>Unit tests, an Inno Setup installer and CI-built iOS releases; went through a full
+    security audit with every finding tracked to closure.</li>
+  </ul>
+  <ul class="tags"><li>C#</li><li>.NET MAUI</li><li>SQLite</li><li>EF Core</li><li>SignalR</li><li>ASP.NET Core</li><li>xUnit</li></ul>
+</article>
+
+<article class="project">
+  <h3>phosh-termux</h3>
+  <p class="meta">Linux mobile shell on Android · open source · 2026</p>
+  <p>Runs the Phosh mobile shell, Plasma Mobile and XFCE in a Debian container on Android, with
+  the fixes that make it usable: a lock screen that unlocks under PRoot, sessions that survive
+  Android's phantom-process killer, and relaunching without a reboot. Comes with a write-up of
+  each diagnosis.</p>
+  <ul class="tags"><li>Shell</li><li>Linux</li><li>Android</li><li>PAM</li><li>Termux</li></ul>
+  <div class="links"><a href="https://github.com/daryan044/phosh-termux">Source</a></div>
+</article>
+
+<h2 id="education">Education</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>ICT, current student</h3>
+    <p>Sulaimani Polytechnic University (SPU)</p>
+  </div>
+  <div class="card">
+    <h3>IT diploma, top of class</h3>
+    <p>CSI, Sulaimani Polytechnic University (SPU)</p>
+  </div>
+</div>
+
+<h2 id="skills">Skills</h2>
+<div class="grid2">
+  <div class="card">
+    <dl class="skills">
+      <dt>Languages</dt><dd>Kotlin, C#, C, JavaScript, Python, Shell, SQL</dd>
+      <dt>Android</dt><dd>Jetpack Compose, Material 3, native code (NDK), app internals</dd>
+      <dt>.NET and web</dt><dd>ASP.NET Core, .NET MAUI, Entity Framework Core, SignalR, WinForms</dd>
+      <dt>Data</dt><dd>PostgreSQL, SQLite, offline-first sync</dd>
+    </dl>
+  </div>
+  <div class="card">
+    <dl class="skills">
+      <dt>Systems</dt><dd>Linux, containers (PRoot, chroot, namespaces), X11, Mesa, cross-compiling</dd>
+      <dt>Performance</dt><dd>Profiling and optimizing apps, from UI to native code</dd>
+      <dt>Hardware</dt><dd>PC hardware and software repair</dd>
+      <dt>Spoken languages</dt><dd>Kurdish, Arabic, English, Persian</dd>
+    </dl>
+  </div>
+</div>
+
+<footer>© 2026 Daryan Kamaran Karim</footer>
+</main>
+</body>
+</html>
