@@ -81,6 +81,19 @@ h2 { font-size: 1.7rem; margin: 64px 0 20px; letter-spacing: -0.015em; }
 .skills dd { margin: 2px 0 0; color: var(--muted); }
 footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 72px; }
 @media (max-width: 720px) {
+  body { font-size: 16px; line-height: 1.6; }
+  nav a.wide { display: none; }
+  .hero { padding: 40px 0 8px; }
+  h1 { font-size: 2.1rem; margin-bottom: 12px; }
+  .hero p.lead { font-size: 1.05rem; margin-bottom: 20px; }
+  .contact { gap: 8px; }
+  .chip { padding: 8px 14px; font-size: 0.9rem; }
+  h2 { font-size: 1.4rem; margin: 40px 0 14px; }
+  .project, .card { border-radius: 18px; }
+  .project h3 { font-size: 1.2rem; }
+  .project ul { padding-left: 1.1em; }
+  .grid2 { gap: 12px; }
+  footer { margin-top: 48px; }
   .project.featured { grid-template-columns: 1fr; }
   .project.featured img { max-width: 240px; margin: 0 auto; display: block; }
   .project { padding: 22px; }
@@ -91,8 +104,8 @@ footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top:
 <nav><div>
   <strong><img src="/favicon.svg" alt="">Daryan</strong>
   <a href="#work">Work</a>
-  <a href="#education">Education</a>
-  <a href="#skills">Skills</a>
+  <a class="wide" href="#education">Education</a>
+  <a class="wide" href="#skills">Skills</a>
   <a href="#contact">Contact</a>
 </div></nav>
 
@@ -213,5 +226,6 @@ footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top:
 
 <footer>© 2026 Daryan Kamaran Karim</footer>
 </main>
+<script data-goatcounter="https://daryandev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
